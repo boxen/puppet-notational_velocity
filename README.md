@@ -1,4 +1,11 @@
-# Puppet notational_velocity for Boxen
+# Notational Velocity Puppet Module for Boxen
 
-FIXME: update me bro
+Requires the following boxen modules:
 
+* `boxen`
+
+## Usage
+
+```puppet
+include notational_velocity
+```
