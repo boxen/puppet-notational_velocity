@@ -1,5 +1,5 @@
 class notational_velocity::nvalt inherits notational_velocity {
-  Package['Notational Velocity'] {
+  Package['nvALT'] {
     source   => 'http://abyss.designheresy.com/nvaltb/nvalt2.2b106.zip'
   }
 }
