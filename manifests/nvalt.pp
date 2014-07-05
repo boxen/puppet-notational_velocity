@@ -1,5 +1,8 @@
-class notational_velocity::nvalt inherits notational_velocity {
-  Package['Notational Velocity'] {
-    source   => 'http://abyss.designheresy.com/nvaltb/nvalt2.2b106.zip'
+# Install the nvAlt fork of Notational Velocity
+# https://github.com/ttscoff/nv
+class notational_velocity::nvalt {
+  package { 'nvALT':
+    source   => 'http://abyss.designheresy.com/nvaltb/nvalt2.2b111.zip',
+    provider => 'compressed_app'
   }
 }
